@@ -36,3 +36,75 @@
     transform: rotate(360deg);
   }
 }
+
+.heading{
+  font-size: 50px;
+  font-weight: 100;
+  margin-right: 8pt;
+  display: flex;
+
+}
+
+.current-temp{
+  display:flex;
+  align-items: center;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  place-content: space-around;
+}
+
+.imagen{
+  width:150px;
+  height:150px;
+}
+
+.cityName{
+  font-weight: 700;
+  font-size: 35px;
+  text-align: left;
+}
+
+.searchBar{
+  display: flex;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.section-content{
+  width: 100%;
+  padding: 24pt 0;
+}
+
+.daySection{
+  padding-top: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.textField{
+  width: 400px;
+}
+
+.info{
+  text-align: left;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+
+.testColumn{
+  width: 44px;
+}
+
+.daily{
+  display: flex;
+}
+
+.title{
+  text-align: justify;
+  padding-bottom: 40px;
+}
